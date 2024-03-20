@@ -83,7 +83,7 @@ class RTMPageState extends State<RTMPage> {
     * 3、原生调用：'SwiftAgoraRtmPlugin'
     * */
     var logFilepath = '${documentsDir.path}/agora.txt';
-    // logFilepath = '';
+    logFilepath = '';
     _log('logFilepath = $logFilepath');
     await _client?.setLogFile(logFilepath);
 
